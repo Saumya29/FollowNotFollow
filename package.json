@@ -1,0 +1,16 @@
+{
+  "name": "twitterapp",
+  "version": "1.0.0",
+  "description": "See who you follow who doesn't follow you back",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "keywords": [
+    "twitter",
+    "follow",
+    "follower"
+  ],
+  "author": "Saumya Tiwari",
+  "license": "MIT"
+}
