@@ -12,5 +12,8 @@
     "follower"
   ],
   "author": "Saumya Tiwari",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "twitter": "^1.7.1"
+  }
 }
