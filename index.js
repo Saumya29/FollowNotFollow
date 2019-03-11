@@ -1,10 +1,11 @@
 var Twitter = require('twitter');
+const {consumer_key, consumer_secret, access_token_key, access_token_secret} = require('./config');
 
 var client = new Twitter({
-  consumer_key: 'O1EObHQUmG6omgQMRBrokSwSg',
-  consumer_secret: 'Tf65xHN0rLlOnwDIpmWojW2ZF85uYy5zscKTRoBwFXp9QyL62z',
-  access_token_key: '799945837677658112-lJf8iH0gF0Y3YXR8ANuwySz9Yv5ZJpJ',
-  access_token_secret: 'XTij3cWyp7p3WXVeIg2ClzWd0tjn61CzjwZJ6HG87iZQf'
+  consumer_key: consumer_key,
+  consumer_secret: consumer_secret,
+  access_token_key: access_token_key,
+  access_token_secret: access_token_secret
 });
 
 var params = {screen_name: 'SaumyaTiwari29'};
